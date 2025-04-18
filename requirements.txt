@@ -1,0 +1,35 @@
+# Core LLM requirements
+transformers==4.36.2
+accelerate==0.25.0
+bitsandbytes
+sentence-transformers
+
+# Tokenizer support for LLaMA, Mistral, etc.
+sentencepiece
+wget
+
+# LangChain ecosystem
+langchain==0.1.14
+langchain-core==0.1.43
+langchain-community==0.0.31
+langserve[all]
+langchain-chroma==0.1.0
+langchainhub
+
+# Vector stores & retrieval
+chromadb==0.4.24
+faiss-cpu==1.8.0
+
+# OCR and file parsing
+rapidocr-onnxruntime==1.3.19
+unstructured==0.11.8
+pypdf==4.2.0
+
+# Web and API stack
+fastapi==0.110.1
+uvicorn==0.29.0
+httpx==0.24.1
+
+# Other utilities
+beautifulsoup4==4.12.3
+
